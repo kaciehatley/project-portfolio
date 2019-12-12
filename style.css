@@ -1,0 +1,115 @@
+#logo{
+    left: 0;
+    width: 300px;
+    display: inline-block;
+}
+
+#navbar {
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 3px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+a {
+    color: gray;
+    font-size: 18px;
+    margin: 0px 20px;
+}
+
+a:hover {
+    letter-spacing: 6px;
+    color: black;
+}
+
+.active {
+    border-bottom: 1px solid gray;
+}
+
+.pageContent {
+    height: 100vh;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    margin-top: 80px;
+}
+
+#backgroundImg {
+    width: 100%;
+    filter: brightness(30%);
+    position: fixed;
+}
+
+.content {
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+h2 {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.top {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+}
+
+.pTagSpace {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.space {
+    margin: 80px 0;
+}
+
+.card {
+    display: inline-block;
+    color: black;
+    margin: 30px 40px;
+    letter-spacing: 1px;
+    height: 350px;
+}
+
+.imgRow {
+    display: inline-block;
+}
+
+.piTop {
+    height: 200px;
+    margin: 10px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    opacity: .87;
+}
+
+.card-img-top {
+    height: 150px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width : 890px) {
+    #backgroundImg {
+        height: 100%;
+        filter: brightness(30%);
+        position: fixed;
+        width: auto;
+    }
+}
+
+.card-body {
+    padding: 30px;
+}
