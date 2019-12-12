@@ -5,6 +5,7 @@ var pwGenBlock = document.querySelector(".pwGen");
 var dayPlanBlock = document.querySelector(".dayPlan");
 var gitHub = document.querySelector("#gitHub");
 var linkedIn = document.querySelector("#linkedIn");
+var resume = document.querySelector("#resume");
 
 simpleEatsBlock.addEventListener("click", function() {
     window.open( 
@@ -41,3 +42,7 @@ linkedIn.addEventListener("click", function() {
         "https://www.linkedin.com/in/kacie-hatley-a1392518a", "_blank"); 
 });
 
+resume.addEventListener("click", function() {
+    window.open( 
+        "https://drive.google.com/file/d/1nCfAKbJ0upvmMj3GwXKJDPUgb7ajCV4d/view?usp=sharing", "_blank"); 
+});
