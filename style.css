@@ -32,7 +32,7 @@ a:hover {
     position: relative;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 3px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 #backgroundImg {
@@ -50,9 +50,9 @@ a:hover {
     width: 100%;
 }
 
-h2 {
+h1 {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 30px;
 }
 
@@ -70,7 +70,7 @@ h2 {
 }
 
 .space {
-    margin: 80px 0;
+    margin: 100px 0;
 }
 
 .card {
@@ -91,6 +91,7 @@ h2 {
     border: 1px solid white;
     border-radius: 5px;
     opacity: .87;
+    display: inline-block;
 }
 
 .card-img-top {
@@ -101,6 +102,42 @@ h2 {
     transform: scale(1.05);
 }
 
+.card-body {
+    padding: 30px;
+}
+
+.form-control {
+    width: 500px;
+    margin: 30px auto;
+    align-content: center;
+    opacity: .8;
+}
+
+.logo {
+    width: 40px;
+    margin: 20px;
+}
+
+.logoLinks {
+    display: inline-block;
+    margin: 20px;
+}
+
+.logoLinks:hover {
+    transform: scale(1.05);
+}
+
+.aboutMe {
+    display: inline-block;
+}
+
+.myImg {
+    border-radius: 50%;
+    height: 140px;
+    opacity: .8;
+    border: 1px solid white;
+}
+
 @media screen and (max-width : 890px) {
     #backgroundImg {
         height: 100%;
@@ -108,8 +145,10 @@ h2 {
         position: fixed;
         width: auto;
     }
-}
-
-.card-body {
-    padding: 30px;
+    .form-control {
+        width: 80%;
+        margin: 30px auto;
+        align-content: center;
+        opacity: .8;
+    }
 }
