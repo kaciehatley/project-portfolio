@@ -6,6 +6,7 @@ var dayPlanBlock = document.querySelector(".dayPlan");
 var gitHub = document.querySelector("#gitHub");
 var linkedIn = document.querySelector("#linkedIn");
 var resume = document.querySelector("#resume");
+var logo = document.querySelector("#logo");
 
 simpleEatsBlock.addEventListener("click", function() {
     window.open( 
@@ -46,3 +47,8 @@ resume.addEventListener("click", function() {
     window.open( 
         "https://drive.google.com/file/d/1nCfAKbJ0upvmMj3GwXKJDPUgb7ajCV4d/view?usp=sharing", "_blank"); 
 });
+
+logo.addEventListener("click", function() {
+    $(document).scrollTop(0);
+});
+
