@@ -52,3 +52,4 @@ logo.addEventListener("click", function() {
     $(document).scrollTop(0);
 });
 
+window.onload($(document).scrollTop(0));
