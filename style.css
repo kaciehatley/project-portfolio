@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 #logo{
     left: 0;
     width: 300px;
@@ -150,6 +154,19 @@ h1, h2, h4 {
 .navbar-toggler-icon {
     color: white;
     z-index: 3;
+}
+
+footer {
+    height: 5%;
+    position: fixed;
+    bottom: 0;
+    color: gray;
+}
+
+.copyright {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding: 5px;
 }
 
 @media screen and (max-width : 890px) {
