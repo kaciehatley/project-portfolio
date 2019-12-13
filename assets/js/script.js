@@ -45,7 +45,7 @@ linkedIn.addEventListener("click", function() {
 
 resume.addEventListener("click", function() {
     window.open( 
-        "https://drive.google.com/file/d/1nCfAKbJ0upvmMj3GwXKJDPUgb7ajCV4d/view?usp=sharing", "_blank"); 
+        "/Users/kaciehatley/Desktop/project-portfolio/assets/pdf/Kacie-Hatley-Resume.pdf", "_blank"); 
 });
 
 logo.addEventListener("click", function() {
