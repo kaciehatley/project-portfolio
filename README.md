@@ -7,7 +7,7 @@ This website houses all of my coding projects. The website was built from scratc
 
 ## Styling
 
-This website was built with materialize: https://materializecss.com/
+This website was built with Bootstrap: https://getbootstrap.com/
 
 The background image 
 
