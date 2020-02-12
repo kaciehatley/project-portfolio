@@ -1,3 +1,11 @@
+$.preloadImages = function() {
+    for (var i = 0; i < arguments.length; i++) {
+      $("<img />").attr("src", arguments[i]);
+    }
+  }
+  
+$.preloadImages("assets/images/Kacie Hatley.png", "assets/images/grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg", "assets/images/Enlight71.JPG");
+
 var simpleEatsBlock = document.querySelector(".simpleEats");
 var jsQuizBlock = document.querySelector(".jsQuiz");
 var weatherDashBlock = document.querySelector(".weatherDash");
