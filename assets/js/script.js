@@ -51,7 +51,7 @@ linkedIn.addEventListener("click", function() {
 
 resume.addEventListener("click", function() {
     window.open( 
-        "assets/pdf/Kacie-Hatley-Resume.pdf", "_blank"); 
+        "assets/pdf/Kacie-Hatley-Updated-Resume.pdf", "_blank"); 
 });
 
 logo.addEventListener("click", function() {
