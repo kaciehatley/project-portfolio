@@ -1,16 +1,9 @@
-$.preloadImages = function() {
-    for (var i = 0; i < arguments.length; i++) {
-      $("<img />").attr("src", arguments[i]);
-    }
-  }
-  
-$.preloadImages("assets/images/Kacie Hatley.png", "assets/images/grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg", "assets/images/Enlight71.JPG");
-
 var simpleEatsBlock = document.querySelector(".simpleEats");
 var jsQuizBlock = document.querySelector(".jsQuiz");
 var weatherDashBlock = document.querySelector(".weatherDash");
 var pwGenBlock = document.querySelector(".pwGen");
 var dayPlanBlock = document.querySelector(".dayPlan");
+var allBooked = document.querySelector(".allBooked");
 var gitHub = document.querySelector("#gitHub");
 var linkedIn = document.querySelector("#linkedIn");
 var resume = document.querySelector("#resume");
@@ -39,6 +32,11 @@ pwGenBlock.addEventListener("click", function() {
 dayPlanBlock.addEventListener("click", function() {
     window.open( 
         "https://kaciehatley.github.io/day-planner/", "_blank"); 
+});
+
+allBooked.addEventListener("click", function() {
+    window.open( 
+        "https://cryptic-chamber-77839.herokuapp.com/", "_blank"); 
 });
 
 gitHub.addEventListener("click", function() {
