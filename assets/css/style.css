@@ -169,6 +169,11 @@ footer {
     padding: 5px;
 }
 
+.skillsDiv {
+    width: 60%;
+    margin: auto;
+}
+
 @media screen and (max-width : 890px) {
     #backgroundImg {
         height: 100%;
