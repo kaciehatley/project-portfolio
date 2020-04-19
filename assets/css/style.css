@@ -84,13 +84,16 @@ h1, h2, h4 {
     color: black;
     margin: 30px 40px;
     letter-spacing: 1px;
-    height: 430px;
-    opacity: .8;
+    height: auto;
+    opacity: .8;   
+    width: 18% !important;
+    padding: 0 !important;      
 }
 
-.imgRow {
-    display: inline-block;
+.cardImg {
+    width: 100% !important;
 }
+
 
 .piTop {
     height: 200px;
@@ -173,6 +176,30 @@ footer {
     width: 60%;
     margin: auto;
 }
+
+.buttonStyle {
+    width: 90%;
+    background-color: rgb(165, 165, 165);
+    border: none;
+    margin-bottom: 5px;
+}
+
+.buttonStyle:hover {
+    background-color: rgb(120, 119, 119);
+}
+
+.techUsed {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+/* .btn:focus {
+    background-color: rgb(120, 119, 119);
+}
+
+.btn:active {
+    background-color: rgb(120, 119, 119);
+} */
 
 @media screen and (max-width : 890px) {
     #backgroundImg {
